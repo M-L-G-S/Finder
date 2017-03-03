@@ -6,7 +6,9 @@
 
 The following **required** functionality is completed:
 
-- [ ] User takes a picture, punches in the restaurant, adds it to their food diary
+- [ ] User can adds and entry it their food diary
+- [ ] User can include a takes a picture of their food in their entry
+- [ ] User can punches in the restaurant for each entry
 
 The following **optional** features are implemented:
 
