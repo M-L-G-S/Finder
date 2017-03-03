@@ -19,7 +19,7 @@ The following **optional** features are implemented:
 - [ ] User gives instagram account, get all the photos, allow user to select all posts they want to import
 - [ ] User can star or favorite restaurants or meals
 - [ ] User can track their food consumption over time
-- [ ] Optional: User can see the calorie breakdown of their meals
+- [ ] User can see the calorie breakdown of their meals
 
 ## Video Walkthrough 
 
