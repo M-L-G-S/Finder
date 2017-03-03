@@ -8,7 +8,8 @@ The following **required** functionality is completed:
 
 - [ ] User can add an entry into their food diary
 - [ ] User can include a picture of their food in their entry
-- [ ] User can punch in the restaurant for their entry
+- [ ] User can enter the restaurant name for their entry
+- [ ] User can add a description of the food in their food entry.
 
 The following **optional** features are implemented:
 
@@ -37,7 +38,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2017] [Gina Ratto, Sim Singh, Megan Wang, Les Wang]
+    Copyright [2017] [Gina Ratto, Sim Singh, Megan Wang, Less Wang]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
