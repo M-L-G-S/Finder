@@ -6,23 +6,20 @@
 
 The following **required** functionality is completed:
 
-- [ ] User can add an entry into their food diary
-- [ ] User can include a picture of their food in their entry
-- [ ] User can enter the restaurant name for their entry
-- [ ] User can add a description of the food in their food entry.
+- [ ] User can swipe left or right for interest in food or restaurante 
+- [ ] User can tap on food picture for more information about the food shown
+- [ ] User can access an interest page of past swipes
 
 The following **optional** features are implemented:
 
-- [ ] Sort food posts/entries by restaurant, date, user, etc.
-- [ ] Yelp/Instagram integration
-- [ ] General sharing options
-- [ ] Using Yelp API: insert restaurant, use yelp api to auto fill information about the type of food. so say i put in shizen, it would add tags to the post "vegan" "sushi" "japanese" etc. and the user can of course remove them. (maybe only add if user says autofill)
-- [ ] Save location in case sort by location. very optional
-- [ ] User gives link to an instagram post, import photo, post description, time/date, etc - and add it to food diary
-- [ ] User gives instagram account, get all the photos, allow user to select all posts they want to import
-- [ ] User can star or favorite restaurants or meals
-- [ ] User can track their food consumption over time
-- [ ] User can see the calorie breakdown of their meals
+- [ ] User can link their facebook acccount and friends
+- [ ] Yelp integration for food photos and information
+- [ ] User can specify distance radius to get their food choices from
+- [ ] User can superlike food posts and it will show up at the top of their interest page
+- [ ] User will see if their friends liked the food that they are looking at
+- [ ] Superliked food will be sent to user's friends
+- [ ] User will be able to message their friends to organize outings to go get food
+- [ ] User will have the option of limiting interactions to preexisting friends or interacting with the general user population
 
 ## Video Walkthrough 
 
