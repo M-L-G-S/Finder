@@ -1,6 +1,6 @@
-# Project 4 - *Food Diary*
+# Project 4 - *Finder*
 
-**Food Diary** is an app that displays photos of food that the user posts
+**Finder** is tinder but for food
 
 ## User Stories
 
