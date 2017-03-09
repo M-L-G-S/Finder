@@ -1,4 +1,4 @@
-# Project 4 - *Finder*
+# *Finder*
 
 **Finder** is tinder but for food
 
@@ -21,13 +21,11 @@ The following **optional** features are implemented:
 - [ ] User will be able to message their friends to organize outings to go get food
 - [ ] User will have the option of limiting interactions to preexisting friends or interacting with the general user population
 
-## Video Walkthrough 
+## Mock Up
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/XkvA5J9.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+<img src='http://i.imgur.com/cw4qAKq.png' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
