@@ -23,13 +23,13 @@ The following **optional** features are implemented:
 
 ## Mock Up
 
-Here's a walkthrough of implemented user stories:
+Here's a mockup for the app:
 
 <img src='http://i.imgur.com/cw4qAKq.png' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+WIP
 
 ## License
 
