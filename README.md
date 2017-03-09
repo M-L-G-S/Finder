@@ -25,7 +25,7 @@ The following **optional** features are implemented:
 
 Here's a mockup for the app:
 
-<img src='http://i.imgur.com/cw4qAKq.png' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/KvO0vjq.png' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
