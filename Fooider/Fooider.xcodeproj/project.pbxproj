@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182DBD9860F779F008D31842 /* Pods_Fooider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E013579AF0D88FDCC4EBE30 /* Pods_Fooider.framework */; };
 		2322B5361EAE8F8100F4DB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2322B5351EAE8F8100F4DB65 /* AppDelegate.swift */; };
 		2322B5381EAE8F8100F4DB65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2322B5371EAE8F8100F4DB65 /* ViewController.swift */; };
 		2322B53B1EAE8F8100F4DB65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2322B5391EAE8F8100F4DB65 /* Main.storyboard */; };
@@ -14,6 +15,13 @@
 		2322B5401EAE8F8100F4DB65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2322B53E1EAE8F8100F4DB65 /* LaunchScreen.storyboard */; };
 		2322B54B1EAE8F8100F4DB65 /* FooiderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2322B54A1EAE8F8100F4DB65 /* FooiderTests.swift */; };
 		2322B5561EAE8F8200F4DB65 /* FooiderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2322B5551EAE8F8200F4DB65 /* FooiderUITests.swift */; };
+		2322B5641EAE9C5F00F4DB65 /* MyKolodaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2322B5631EAE9C5F00F4DB65 /* MyKolodaViewController.swift */; };
+		23F5EBCA1EBABEB3003DE19C /* FoodAppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F5EBC91EBABEB3003DE19C /* FoodAppTabBarViewController.swift */; };
+		23F5EBCC1EBACE69003DE19C /* ScrollingTabBarUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F5EBCB1EBACE69003DE19C /* ScrollingTabBarUtils.swift */; };
+		23F5EBCE1EBAD077003DE19C /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F5EBCD1EBAD077003DE19C /* Business.swift */; };
+		23F5EBD21EBAD09C003DE19C /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F5EBD11EBAD09C003DE19C /* YelpClient.swift */; };
+		8EB25DFC25FBD852EC091F2C /* Pods_FooiderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5F94D939814F8C0ADFE079 /* Pods_FooiderUITests.framework */; };
+		A697BE6629615DB5099628D3 /* Pods_FooiderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CFB5F0CB0FC22D9FE5B995 /* Pods_FooiderTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		132AB0FD8723A3C1B72A417D /* Pods-FooiderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooiderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FooiderUITests/Pods-FooiderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2322B5321EAE8F8100F4DB65 /* Fooider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fooider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2322B5351EAE8F8100F4DB65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2322B5371EAE8F8100F4DB65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,19 @@
 		2322B5511EAE8F8200F4DB65 /* FooiderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FooiderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2322B5551EAE8F8200F4DB65 /* FooiderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooiderUITests.swift; sourceTree = "<group>"; };
 		2322B5571EAE8F8200F4DB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2322B5631EAE9C5F00F4DB65 /* MyKolodaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyKolodaViewController.swift; sourceTree = "<group>"; };
+		23F5EBC91EBABEB3003DE19C /* FoodAppTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodAppTabBarViewController.swift; path = ../FoodAppTabBarViewController.swift; sourceTree = "<group>"; };
+		23F5EBCB1EBACE69003DE19C /* ScrollingTabBarUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrollingTabBarUtils.swift; path = ../../../samples/iOSScrollingTabBarAnimation/ScrollingTabBarDemo/ScrollingTabBarUtils.swift; sourceTree = "<group>"; };
+		23F5EBCD1EBAD077003DE19C /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		23F5EBD11EBAD09C003DE19C /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		5E013579AF0D88FDCC4EBE30 /* Pods_Fooider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fooider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CFB5F0CB0FC22D9FE5B995 /* Pods_FooiderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FooiderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EECA0881138C21081E36E07 /* Pods-FooiderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooiderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FooiderTests/Pods-FooiderTests.release.xcconfig"; sourceTree = "<group>"; };
+		88CA21C4430F1035851DF9B0 /* Pods-Fooider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fooider.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fooider/Pods-Fooider.release.xcconfig"; sourceTree = "<group>"; };
+		9DDF76D20F322F66D237C62C /* Pods-FooiderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooiderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FooiderTests/Pods-FooiderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6DC16C11C89198BF13CAFF8 /* Pods-FooiderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooiderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FooiderUITests/Pods-FooiderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC5F94D939814F8C0ADFE079 /* Pods_FooiderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FooiderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60CD9D108F45D90DF17D690 /* Pods-Fooider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fooider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fooider/Pods-Fooider.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182DBD9860F779F008D31842 /* Pods_Fooider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A697BE6629615DB5099628D3 /* Pods_FooiderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB25DFC25FBD852EC091F2C /* Pods_FooiderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05A4DEF16AEF80E3A67BFD03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E60CD9D108F45D90DF17D690 /* Pods-Fooider.debug.xcconfig */,
+				88CA21C4430F1035851DF9B0 /* Pods-Fooider.release.xcconfig */,
+				9DDF76D20F322F66D237C62C /* Pods-FooiderTests.debug.xcconfig */,
+				7EECA0881138C21081E36E07 /* Pods-FooiderTests.release.xcconfig */,
+				B6DC16C11C89198BF13CAFF8 /* Pods-FooiderUITests.debug.xcconfig */,
+				132AB0FD8723A3C1B72A417D /* Pods-FooiderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2322B5291EAE8F8100F4DB65 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				2322B5491EAE8F8100F4DB65 /* FooiderTests */,
 				2322B5541EAE8F8200F4DB65 /* FooiderUITests */,
 				2322B5331EAE8F8100F4DB65 /* Products */,
+				05A4DEF16AEF80E3A67BFD03 /* Pods */,
+				DD566D35D3A290DE7BA7992E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +137,17 @@
 		2322B5341EAE8F8100F4DB65 /* Fooider */ = {
 			isa = PBXGroup;
 			children = (
+				23F5EBD01EBAD091003DE19C /* API */,
+				23F5EBCF1EBAD07E003DE19C /* Models */,
+				23F5EBC91EBABEB3003DE19C /* FoodAppTabBarViewController.swift */,
 				2322B5351EAE8F8100F4DB65 /* AppDelegate.swift */,
 				2322B5371EAE8F8100F4DB65 /* ViewController.swift */,
 				2322B5391EAE8F8100F4DB65 /* Main.storyboard */,
+				23F5EBCB1EBACE69003DE19C /* ScrollingTabBarUtils.swift */,
 				2322B53C1EAE8F8100F4DB65 /* Assets.xcassets */,
 				2322B53E1EAE8F8100F4DB65 /* LaunchScreen.storyboard */,
 				2322B5411EAE8F8100F4DB65 /* Info.plist */,
+				2322B5631EAE9C5F00F4DB65 /* MyKolodaViewController.swift */,
 			);
 			path = Fooider;
 			sourceTree = "<group>";
@@ -125,6 +170,32 @@
 			path = FooiderUITests;
 			sourceTree = "<group>";
 		};
+		23F5EBCF1EBAD07E003DE19C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				23F5EBCD1EBAD077003DE19C /* Business.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		23F5EBD01EBAD091003DE19C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				23F5EBD11EBAD09C003DE19C /* YelpClient.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		DD566D35D3A290DE7BA7992E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E013579AF0D88FDCC4EBE30 /* Pods_Fooider.framework */,
+				63CFB5F0CB0FC22D9FE5B995 /* Pods_FooiderTests.framework */,
+				DC5F94D939814F8C0ADFE079 /* Pods_FooiderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2322B55A1EAE8F8200F4DB65 /* Build configuration list for PBXNativeTarget "Fooider" */;
 			buildPhases = (
+				23039E3F5A62ED25C630DB2E /* [CP] Check Pods Manifest.lock */,
 				2322B52E1EAE8F8100F4DB65 /* Sources */,
 				2322B52F1EAE8F8100F4DB65 /* Frameworks */,
 				2322B5301EAE8F8100F4DB65 /* Resources */,
+				3FF5AB1A67D56F358BA8726B /* [CP] Embed Pods Frameworks */,
+				6EE75801125711EE7C931FD3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2322B55D1EAE8F8200F4DB65 /* Build configuration list for PBXNativeTarget "FooiderTests" */;
 			buildPhases = (
+				C56D1618E0264966F46D8EDF /* [CP] Check Pods Manifest.lock */,
 				2322B5421EAE8F8100F4DB65 /* Sources */,
 				2322B5431EAE8F8100F4DB65 /* Frameworks */,
 				2322B5441EAE8F8100F4DB65 /* Resources */,
+				A03FF0439FE10A5F346C423C /* [CP] Embed Pods Frameworks */,
+				E71886426142AB5457233830 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2322B5601EAE8F8200F4DB65 /* Build configuration list for PBXNativeTarget "FooiderUITests" */;
 			buildPhases = (
+				7E1CDCA8E8D544422246FB4F /* [CP] Check Pods Manifest.lock */,
 				2322B54D1EAE8F8200F4DB65 /* Sources */,
 				2322B54E1EAE8F8200F4DB65 /* Frameworks */,
 				2322B54F1EAE8F8200F4DB65 /* Resources */,
+				9776EF23AA036AE9B1EC47BC /* [CP] Embed Pods Frameworks */,
+				8423AB3527F4848CE0BDD3F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +334,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23039E3F5A62ED25C630DB2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3FF5AB1A67D56F358BA8726B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fooider/Pods-Fooider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EE75801125711EE7C931FD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fooider/Pods-Fooider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E1CDCA8E8D544422246FB4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8423AB3527F4848CE0BDD3F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FooiderUITests/Pods-FooiderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9776EF23AA036AE9B1EC47BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FooiderUITests/Pods-FooiderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A03FF0439FE10A5F346C423C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FooiderTests/Pods-FooiderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C56D1618E0264966F46D8EDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E71886426142AB5457233830 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FooiderTests/Pods-FooiderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2322B52E1EAE8F8100F4DB65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23F5EBCA1EBABEB3003DE19C /* FoodAppTabBarViewController.swift in Sources */,
+				23F5EBCC1EBACE69003DE19C /* ScrollingTabBarUtils.swift in Sources */,
+				2322B5641EAE9C5F00F4DB65 /* MyKolodaViewController.swift in Sources */,
+				23F5EBCE1EBAD077003DE19C /* Business.swift in Sources */,
 				2322B5381EAE8F8100F4DB65 /* ViewController.swift in Sources */,
 				2322B5361EAE8F8100F4DB65 /* AppDelegate.swift in Sources */,
+				23F5EBD21EBAD09C003DE19C /* YelpClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +631,7 @@
 		};
 		2322B55B1EAE8F8200F4DB65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60CD9D108F45D90DF17D690 /* Pods-Fooider.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fooider/Info.plist;
@@ -420,6 +644,7 @@
 		};
 		2322B55C1EAE8F8200F4DB65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CA21C4430F1035851DF9B0 /* Pods-Fooider.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fooider/Info.plist;
@@ -432,6 +657,7 @@
 		};
 		2322B55E1EAE8F8200F4DB65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DDF76D20F322F66D237C62C /* Pods-FooiderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +672,7 @@
 		};
 		2322B55F1EAE8F8200F4DB65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EECA0881138C21081E36E07 /* Pods-FooiderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +687,7 @@
 		};
 		2322B5611EAE8F8200F4DB65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DC16C11C89198BF13CAFF8 /* Pods-FooiderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FooiderUITests/Info.plist;
@@ -473,6 +701,7 @@
 		};
 		2322B5621EAE8F8200F4DB65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132AB0FD8723A3C1B72A417D /* Pods-FooiderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FooiderUITests/Info.plist;
@@ -503,6 +732,7 @@
 				2322B55C1EAE8F8200F4DB65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2322B55D1EAE8F8200F4DB65 /* Build configuration list for PBXNativeTarget "FooiderTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +741,7 @@
 				2322B55F1EAE8F8200F4DB65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2322B5601EAE8F8200F4DB65 /* Build configuration list for PBXNativeTarget "FooiderUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +750,7 @@
 				2322B5621EAE8F8200F4DB65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

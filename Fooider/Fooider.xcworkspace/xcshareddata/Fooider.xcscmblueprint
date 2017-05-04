@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0001C7BB58A82E31280C746288795E472676EB9E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5EFFEB6AED614A78A4E5658188D74CB429B874F9" : 9223372036854775807,
+    "5143C01CFBC65F46C6A1863DC5DFB4E6B2C36672" : 9223372036854775807,
+    "0001C7BB58A82E31280C746288795E472676EB9E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B24086A6-4646-402B-B9A6-6B9FCDD3C6DB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5EFFEB6AED614A78A4E5658188D74CB429B874F9" : "samples\/iOSScrollingTabBarAnimation\/",
+    "5143C01CFBC65F46C6A1863DC5DFB4E6B2C36672" : "..",
+    "0001C7BB58A82E31280C746288795E472676EB9E" : "Finder\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Fooider",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Fooider\/Fooider.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:M-L-G-S\/Finder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0001C7BB58A82E31280C746288795E472676EB9E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:simsinght\/Practice_and_Git.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5143C01CFBC65F46C6A1863DC5DFB4E6B2C36672"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:franklinsch\/iOSScrollingTabBarAnimation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5EFFEB6AED614A78A4E5658188D74CB429B874F9"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0001C7BB58A82E31280C746288795E472676EB9E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5143C01CFBC65F46C6A1863DC5DFB4E6B2C36672" : 9223372036854775807,
+    "0001C7BB58A82E31280C746288795E472676EB9E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "919DD5AD-25D1-4FC2-B7A7-DB004C2D9B44",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5143C01CFBC65F46C6A1863DC5DFB4E6B2C36672" : "..",
+    "0001C7BB58A82E31280C746288795E472676EB9E" : "Finder\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Fooider",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Fooider\/Fooider.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:M-L-G-S\/Finder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0001C7BB58A82E31280C746288795E472676EB9E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:simsinght\/Practice_and_Git.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5143C01CFBC65F46C6A1863DC5DFB4E6B2C36672"
+    }
+  ]
+}
