@@ -20,6 +20,8 @@
 		23F5EBCC1EBACE69003DE19C /* ScrollingTabBarUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F5EBCB1EBACE69003DE19C /* ScrollingTabBarUtils.swift */; };
 		23F5EBCE1EBAD077003DE19C /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F5EBCD1EBAD077003DE19C /* Business.swift */; };
 		23F5EBD21EBAD09C003DE19C /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F5EBD11EBAD09C003DE19C /* YelpClient.swift */; };
+		23F5EBD41ECA5D26003DE19C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F5EBD31ECA5D26003DE19C /* CoreLocation.framework */; };
+		23F5EBD61ECA5D2D003DE19C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F5EBD51ECA5D2D003DE19C /* MapKit.framework */; };
 		8EB25DFC25FBD852EC091F2C /* Pods_FooiderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5F94D939814F8C0ADFE079 /* Pods_FooiderUITests.framework */; };
 		A697BE6629615DB5099628D3 /* Pods_FooiderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CFB5F0CB0FC22D9FE5B995 /* Pods_FooiderTests.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +63,8 @@
 		23F5EBCB1EBACE69003DE19C /* ScrollingTabBarUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrollingTabBarUtils.swift; path = ../../../samples/iOSScrollingTabBarAnimation/ScrollingTabBarDemo/ScrollingTabBarUtils.swift; sourceTree = "<group>"; };
 		23F5EBCD1EBAD077003DE19C /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		23F5EBD11EBAD09C003DE19C /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		23F5EBD31ECA5D26003DE19C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		23F5EBD51ECA5D2D003DE19C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		5E013579AF0D88FDCC4EBE30 /* Pods_Fooider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fooider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CFB5F0CB0FC22D9FE5B995 /* Pods_FooiderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FooiderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EECA0881138C21081E36E07 /* Pods-FooiderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooiderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FooiderTests/Pods-FooiderTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23F5EBD61ECA5D2D003DE19C /* MapKit.framework in Frameworks */,
+				23F5EBD41ECA5D26003DE19C /* CoreLocation.framework in Frameworks */,
 				182DBD9860F779F008D31842 /* Pods_Fooider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +195,8 @@
 		DD566D35D3A290DE7BA7992E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23F5EBD51ECA5D2D003DE19C /* MapKit.framework */,
+				23F5EBD31ECA5D26003DE19C /* CoreLocation.framework */,
 				5E013579AF0D88FDCC4EBE30 /* Pods_Fooider.framework */,
 				63CFB5F0CB0FC22D9FE5B995 /* Pods_FooiderTests.framework */,
 				DC5F94D939814F8C0ADFE079 /* Pods_FooiderUITests.framework */,

@@ -7,6 +7,8 @@ target 'Fooider' do
 
   # Pods for Fooider
   pod "Koloda"
+  pod 'AFNetworking', '~> 2.5'
+  pod 'BDBOAuth1Manager'
 
   target 'FooiderTests' do
     inherit! :search_paths
