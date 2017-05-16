@@ -17,11 +17,11 @@
 		2322B5561EAE8F8200F4DB65 /* FooiderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2322B5551EAE8F8200F4DB65 /* FooiderUITests.swift */; };
 		2322B5641EAE9C5F00F4DB65 /* MyKolodaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2322B5631EAE9C5F00F4DB65 /* MyKolodaViewController.swift */; };
 		23F5EBCA1EBABEB3003DE19C /* FoodAppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F5EBC91EBABEB3003DE19C /* FoodAppTabBarViewController.swift */; };
-		23F5EBCC1EBACE69003DE19C /* ScrollingTabBarUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F5EBCB1EBACE69003DE19C /* ScrollingTabBarUtils.swift */; };
 		23F5EBCE1EBAD077003DE19C /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F5EBCD1EBAD077003DE19C /* Business.swift */; };
 		23F5EBD21EBAD09C003DE19C /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F5EBD11EBAD09C003DE19C /* YelpClient.swift */; };
 		23F5EBD41ECA5D26003DE19C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F5EBD31ECA5D26003DE19C /* CoreLocation.framework */; };
 		23F5EBD61ECA5D2D003DE19C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F5EBD51ECA5D2D003DE19C /* MapKit.framework */; };
+		23F5EBD81ECAA8CA003DE19C /* ScrollingTabBarUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F5EBD71ECAA8CA003DE19C /* ScrollingTabBarUtils.swift */; };
 		8EB25DFC25FBD852EC091F2C /* Pods_FooiderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5F94D939814F8C0ADFE079 /* Pods_FooiderUITests.framework */; };
 		A697BE6629615DB5099628D3 /* Pods_FooiderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CFB5F0CB0FC22D9FE5B995 /* Pods_FooiderTests.framework */; };
 /* End PBXBuildFile section */
@@ -60,11 +60,11 @@
 		2322B5571EAE8F8200F4DB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2322B5631EAE9C5F00F4DB65 /* MyKolodaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyKolodaViewController.swift; sourceTree = "<group>"; };
 		23F5EBC91EBABEB3003DE19C /* FoodAppTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodAppTabBarViewController.swift; path = ../FoodAppTabBarViewController.swift; sourceTree = "<group>"; };
-		23F5EBCB1EBACE69003DE19C /* ScrollingTabBarUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrollingTabBarUtils.swift; path = ../../../samples/iOSScrollingTabBarAnimation/ScrollingTabBarDemo/ScrollingTabBarUtils.swift; sourceTree = "<group>"; };
 		23F5EBCD1EBAD077003DE19C /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		23F5EBD11EBAD09C003DE19C /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
 		23F5EBD31ECA5D26003DE19C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		23F5EBD51ECA5D2D003DE19C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		23F5EBD71ECAA8CA003DE19C /* ScrollingTabBarUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingTabBarUtils.swift; sourceTree = "<group>"; };
 		5E013579AF0D88FDCC4EBE30 /* Pods_Fooider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fooider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CFB5F0CB0FC22D9FE5B995 /* Pods_FooiderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FooiderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EECA0881138C21081E36E07 /* Pods-FooiderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooiderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FooiderTests/Pods-FooiderTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -149,8 +149,8 @@
 				2322B5351EAE8F8100F4DB65 /* AppDelegate.swift */,
 				2322B5371EAE8F8100F4DB65 /* ViewController.swift */,
 				2322B5391EAE8F8100F4DB65 /* Main.storyboard */,
-				23F5EBCB1EBACE69003DE19C /* ScrollingTabBarUtils.swift */,
 				2322B53C1EAE8F8100F4DB65 /* Assets.xcassets */,
+				23F5EBD71ECAA8CA003DE19C /* ScrollingTabBarUtils.swift */,
 				2322B53E1EAE8F8100F4DB65 /* LaunchScreen.storyboard */,
 				2322B5411EAE8F8100F4DB65 /* Info.plist */,
 				2322B5631EAE9C5F00F4DB65 /* MyKolodaViewController.swift */,
@@ -485,8 +485,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23F5EBD81ECAA8CA003DE19C /* ScrollingTabBarUtils.swift in Sources */,
 				23F5EBCA1EBABEB3003DE19C /* FoodAppTabBarViewController.swift in Sources */,
-				23F5EBCC1EBACE69003DE19C /* ScrollingTabBarUtils.swift in Sources */,
 				2322B5641EAE9C5F00F4DB65 /* MyKolodaViewController.swift in Sources */,
 				23F5EBCE1EBAD077003DE19C /* Business.swift in Sources */,
 				2322B5381EAE8F8100F4DB65 /* ViewController.swift in Sources */,
